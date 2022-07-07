@@ -29,7 +29,7 @@ jupyter lab --no-browser --port=8899
 
 ## Running the Scripts
 You can rund the `analysis-script.py` and `convert2hdf5.py` either by
-- using Python: `python analysis-script.py <arguments>
+- using Python: `python analysis-script.py <arguments>`
 - making the script executable with `chmod +x analysis-script.py` and then simply `./analysis-script.py <arguments>`
 
 Use `./analysis-script.py -h` for help.
