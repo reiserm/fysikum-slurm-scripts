@@ -2,6 +2,7 @@
 Scripts to analyze data using Slurm on the fysikum cluster. The scripts are designed to analyze SAXS and XPCS data acquired at beamline ID10 (ESRF-EBS) on the HPC cluster of Fysikum (Stockholm University) but can be modified to process data from various beamlines on other clusters. [Xana](https://github.com/reiserm/Xana) is used for the data processing while [Slurm](https://slurm.schedmd.com/documentation.html) is used to run batch jobs.
 
 ## Infos
+- Load a python environment with `module load conda`.
 - Install requirements with `pip install -r requirements.txt`.
 
 ## Starting a Jupyter Lab server 
