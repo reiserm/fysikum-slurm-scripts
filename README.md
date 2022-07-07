@@ -3,6 +3,12 @@ Scripts to analyze data using Slurm on the fysikum cluster. The scripts are desi
 
 ## Infos
 - Load a python environment with `module load conda`.
+- You may want to create your own environment with something like
+  ```sh
+  python -m venv .venv
+  source .venv/bin/activate
+  pip install -U pip
+  ```
 - Install requirements with `pip install -r requirements.txt`.
 
 ## Starting a Jupyter Lab server 
